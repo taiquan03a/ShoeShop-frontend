@@ -1,0 +1,139 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title_name{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+/* LOGIN */
+.login_form{
+    margin-top: 24px;
+    margin-left: 200px;
+    width: 300px;
+    height: auto;
+    font-size: 18px;
+    color: var(--text-color);
+}
+.Login__container{
+    display: flex;
+}
+.login_form h2{
+    font-size: 36px;
+    color: var(--text-color);
+    font-weight: 900;
+}
+
+.login-inp{
+    display: grid;
+}
+.login-inp label{
+    width: 100%;
+    margin-top: 16px;
+}
+.login-inp input{
+    border: 1px #ccc solid;
+    outline: none;
+    border-radius: 4px;
+    height: 36px;
+    margin-top: 16px;
+    padding-left: 4px;
+}
+.login-inp input:focus{
+    border-left: var(--text-color) solid 4px;
+}
+.checkbox__login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 16px 0;
+}
+#login__checkbox{
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+}
+.or{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+hr.horizontal-ruler {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    align-items: center;
+}
+.login_link{
+    text-align: center  ;
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    line-height: 36px;
+    height: 36px;
+    border-radius: 16px;
+    border: 1px var(--text-color) solid;
+}
+.login_icon{
+    padding-right: 12px;
+}
+.login_link:hover{
+    background-color: var(--btn-color);
+    color: white;
+}
+/* Create */
+.login_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    margin-left: 200px;
+    color: var(--text-color);
+}
+.login_footer span{
+    margin-right: 6px;
+}
+.login_footer a{
+    color: rgb(255, 85, 0);
+    font-weight: 700;
+}
+.login_footer a:hover{
+    opacity: 0.8;
+}
+/*Resiger*/
+.resiger-inp input{
+    margin-top: 8px;
+}
+.resiger__phone-date{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Resiger_phone{
+    width: 150px;
+}
+.Resiger_date{
+    width: 120px;
+}
+.resiger_footer{
+    margin-left: 200px;
+    margin-top: 24px;
+    font-size: 18px;
+}
+.resiger_footer span{
+    margin-right: 6px;
+}
+.resiger_footer a{
+    color: rgb(255, 85, 0);
+    font-weight: 700;
+}
+.resiger_footer a:hover{
+    opacity: 0.8;
+}

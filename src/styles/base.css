@@ -1,0 +1,58 @@
+/** @type {import('tailwindcss').Config} */
+:root {
+    --text-color: rgb(14, 8, 75);
+    --btn-color: rgb(61, 59, 90);
+    --blue: #3490dc;
+    --indigo: #6574cd;
+    --purple: #9561e2;
+    --pink: #f66d9b;
+    --red: #e3342f;
+    --orange: #f6993f;
+    --yellow: #ffed4a;
+    --green: #38c172;
+    --teal: #4dc0b5;
+    --cyan: #6cb2eb;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #d30000;
+    --secondary: #3490dc;
+    --success: #38c172;
+    --info: #6cb2eb;
+    --warning: #ffed4a;
+    --danger: #e3342f;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Nunito", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.btn{
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    background-color: rgb(61, 59, 90);
+    color: white;
+    border-radius: 16px;
+    
+}
+.btn:hover{
+    background-color: #1a0d49;
+}
+/* Responsive */
+/* PC */
+@media(min-with: 1024px){
+
+}
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px) {
+    
+}
+/* Mobile */
+@media(max-width: 739px){
+
+}
